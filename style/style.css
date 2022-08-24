@@ -145,10 +145,19 @@ body {
 .email-sercribe{
     width: 600px;
     margin: auto;
+    height: 250px;
+    background-color: rgba(255, 166, 0, 0.346);
+    position: relative;
+        
+}
+.sercribe-input{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 100px;
     
 }
 .email-sercribe input{
-    width: 450px;
+    width: 350px;
     padding: 10px;
 }
 .email-sercribe button{
