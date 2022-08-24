@@ -37,13 +37,16 @@ body{
 
 /* 2nd-section-start */
 #sceand-section{
-    margin-bottom: 200px;
+    margin-bottom: 130px;
 }
 
 .donate-today-area{
     width: 700px;
     margin: auto;
     text-align: center;
+}
+.donate-today-area p{
+    font-weight: 300;
 }
 .amount-count div{
     display: inline-block;
@@ -62,7 +65,7 @@ body{
 }
 #input-area input{
     margin-bottom: 20px;
-    width: 400px;
+    width: 700px;
     border: none;
     border-bottom: 1px solid black;
     place-content: center;
@@ -77,4 +80,60 @@ body{
     background-color: rgba(255, 68, 0, 0.884);
     padding: 5px 8px;
     border-radius: 6px;
+}
+
+/* section-3nd-start */
+
+.donate-plan{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.donate-plan-box{
+    display: flex;
+    
+}
+.donate-plan h1{
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.donate-plan p{
+    font-weight: 300px;
+}
+
+.food-familly{
+    width: 220px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.716);
+    padding: 10px;
+    margin:20px 10px;
+}
+
+.food-image img{
+    width: 100px;
+    margin-right:120px;
+}
+
+/* start-footer-section */
+.footer-section{
+    display: flex;
+    height: 200px;
+    background-color: black;
+    margin-top: 200px;
+    
+}
+.footer-contain{
+    margin: auto;
+    text-align: center;
+
+}
+.footer-section h1{
+    color: rgba(255, 68, 0, 0.884);
+    margin-bottom: 10px;
+}
+.footer-section small{
+    font-weight: 300;
+    color: white;
 }
