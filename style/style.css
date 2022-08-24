@@ -4,6 +4,7 @@ body{
     padding: 0px;
 }
 
+/* fist-section-start */
 .first-section{
     background-size: 100%;
     height: 400px;
@@ -11,6 +12,7 @@ body{
     background-image: url('../images/banar.jpg');
     background-repeat: no-repeat;
     display: flex; 
+    margin-bottom: 110px;
     
 }
 #first-section-div{
@@ -30,4 +32,49 @@ body{
     padding: 5px 8px;
     border-radius: 6px
 
+}
+/* fist-section-end */
+
+/* 2nd-section-start */
+#sceand-section{
+    margin-bottom: 200px;
+}
+
+.donate-today-area{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.amount-count div{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    margin: 8px;
+    background-color: rgba(128, 128, 128, 0.17);
+    border-radius: 5px;
+    margin-bottom: 35px;
+
+}
+#donate-dollar{
+    border: 2px solid rgba(255, 68, 0, 0.884);
+    color: rgba(255, 68, 0, 0.884);
+}
+#input-area input{
+    margin-bottom: 20px;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    place-content: center;
+}
+#input-area input::placeholder{
+    text-align: center;
+    padding: 3px;
+}
+.donate-button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 68, 0, 0.884);
+    padding: 5px 8px;
+    border-radius: 6px;
 }
