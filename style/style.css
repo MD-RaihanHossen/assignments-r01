@@ -8,7 +8,6 @@ body {
 .first-section {
     background-size: 100%;
     height: 400px;
-    background-color: ;
     background-image: url('../images/banar.jpg');
     background-repeat: no-repeat;
     display: flex;
@@ -127,7 +126,33 @@ body {
     margin-right: 120px;
 }
 
-/* bunas-section-start */
+/* bunas-1-section-start */
+.bunas-section-1{
+    margin-top: 100px;
+}
+.bunas-part {
+
+    width: 600px;
+    display: flex;
+    margin: auto ;
+    border: 1px solid gray;
+
+}
+.bunas-part h1{
+    text-align: center;
+}
+.bunas-part button{
+    color: rgba(255, 68, 0, 0.884);
+    margin-bottom: 10px 20px;
+    background-color: rgba(255, 68, 0, 0.884);
+    border: none;
+    width: 200px;
+    height: 30px;
+    color: wheat;
+
+}
+
+/* bunas-2-section-start */
 .bunas-section {
     margin-top: 110px;
 }
@@ -142,25 +167,28 @@ body {
     font-weight: 300;
 }
 
-.email-sercribe{
+.email-sercribe {
     width: 600px;
     margin: auto;
     height: 250px;
     background-color: rgba(255, 166, 0, 0.346);
     position: relative;
-        
+
 }
-.sercribe-input{
+
+.sercribe-input {
     position: absolute;
     margin-left: 70px;
     margin-top: 100px;
-    
+
 }
-.email-sercribe input{
+
+.email-sercribe input {
     width: 350px;
     padding: 10px;
 }
-.email-sercribe button{
+
+.email-sercribe button {
     padding: 10px;
     background-color: rgba(255, 68, 0, 0.884);
     border: none;
